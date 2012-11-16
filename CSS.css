@@ -1,0 +1,159 @@
+/*
+COLOR GLOSSORY
+
+Tan (Main content background): #E3C296
+Light grey (top header background): #EAEAEA
+Dark grey (Shadow): #888888
+Dark blue (Shadow): #2F4D8D
+Green (Menu background): #96B430
+Darker Green (Menu background): #5C8618
+
+*/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	background: #000;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+
+b {
+	font-size: 110%;
+}
+
+em {
+	color: red;
+}
+
+p {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+
+ul{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+li{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+
+#maincontainer {
+	margin: 0px 25px 0px 25px;
+	background: #FFF;
+}
+
+#topsection {
+	background-image: url("Pictures/MainLogo.jpg");
+	background-position: bottom;
+	background-size: cover;
+	height: 300px; /*Height of top section*/
+}
+
+#topsection h1 {
+	margin: 0;
+	padding-top: 15px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 350%;
+	color: #FFF;
+	position: relative;
+	top: 190px;
+}
+
+#topsection h2 {
+	margin: 0;
+	padding-top: 15px;
+	padding-right: 5px;
+	font-family: "Freestyle Script",cursive;
+	font-size: 255%;
+	/*text-shadow: h-shadow v-shadow blur color;*/
+	text-shadow: 0px 0px 20px #000000;
+	color: #FFF;
+	text-align: right;
+	position: relative;
+	top: 205px;
+}
+
+#menucontainer {
+/*	background: #CB463F;*/
+}
+
+#midsection {
+	background: #5C8618;
+	height: 40px; /*Height of top section*/
+	text-align: center;
+}
+
+#midsection h1 {
+	margin: 0;
+	padding-top: 15px;
+}
+
+#contentwrapper {
+	float: left;
+	width: 100%;
+}
+
+#contentcolumn {
+	margin: 0 0 0 230px;
+	background: #FFF;
+	/*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+}
+
+#leftcolumn {
+	float: left;
+	width: 230px; /*Width of left column*/
+	margin-left: -100%;
+	background: #FFF;
+}
+
+#rightcolumn {
+	float: left;
+	width: 200px; /*Width of right column*/
+	margin-left: -200px; /*Set left marginto -(RightColumnWidth)*/
+	background: #FDE95E;
+}
+
+#footer {
+	clear: left;
+	width: 100%;
+	background: black;
+	color: #FFF;
+	text-align: center;
+	padding: 4px 0;
+}
+
+#footer a {
+	color: #EAEAEA;
+}
+
+#footliner {
+	clear: left;
+	width: 100%;
+	color: black;
+	font-size: 70%;
+	text-align: center;
+	padding: 4px 0;
+}
+
+.innertube {
+	margin: 25px;
+	/*Margins for inner DIV inside each column (to provide padding)*/
+	margin-top: 0;
+}
+
+.outershadow {
+  -moz-box-shadow:    0px 0px 15px 3px #000000;
+  -webkit-box-shadow: 0px 0px 15px 3px #000000;
+  box-shadow:         0px 0px 15px 3px #000000;
+}
+
+
+.roundcorners {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
