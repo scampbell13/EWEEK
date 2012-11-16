@@ -46,7 +46,7 @@ li{
 }
 
 #topsection {
-	background-image: url("Pictures/MainLogo.jpg");
+	background-image: url("Pictures/stripes.png");
 	background-position: bottom;
 	background-size: cover;
 	height: 300px; /*Height of top section*/
