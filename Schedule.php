@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-<title>POWE :: Events</title>
+<title>EWEEK :: Schedule</title>
 
 <?php include("SetUp.php");?>
 
@@ -17,15 +17,8 @@
 <div id="content">
 			<div id="contentpage">
 				<div class="innertube">
-					<h1>Up and Coming Events</h1>
-					<p>
-					<ul>
-						<li>Mexican Fiesta Blues Pub on Friday Night Oct.5 in the
-							Engineering Commonroom</li>
-						<li>Apple Picking on Saturday, Oct. 6</li>
-						<li>Industry Panel on Wednesday, Nov 7 (6 - 8PM)</li>
-						<li>Speed Networking on Tuesday, Nov 20 (5:45-8PM)</li>
-					</ul>
+					<h1>Schedule</h1>
+					<p>The schedule will be uploaded shortly.
 					</p>
 				</div>
 			</div>

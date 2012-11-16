@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-<title>POWE :: Contact Us</title>
+<title>EWEEK :: Contact Us</title>
 
 <?php include("SetUp.php");?>
 
@@ -19,23 +19,24 @@
 				<div class="innertube">
 					<h1>Contact Us</h1>
 					<table cellpadding="5">
-						<tr>
-							<td><b>Mail:</b></td>
-							<td><div>McConnell Engineering Building</div>
-								<div>3480 University Street, Ground Floor, Room #7</div>
-								<div>Montreal, Québec H3A 2K6</div></td>
-						</tr>
 
 						<tr>
 							<td><b>Email:</b></td>
-							<td>powe@mcgilleus.ca</td>
+							<td>eweek@mcgilleus.ca</td>
 						</tr>
 						<tr>
 							<td><b>Facebook Page:</b></td>
-							<td><a
-								href="http://www.facebook.com/pages/POWE-McGill/194911643925397">POWE
-									McGill</a>
-							</td>
+                                                        will be posted soon.
+							<!--</a><td><a
+								href="http://www.facebook.com/pages/POWE-McGill/194911643925397">EWEEK 2013</a>
+							</td>-->
+						</tr>
+                                                <tr>
+							<td><b>Mail:</b></td>
+							<td><div>Engineering Week</div>
+                                                        <div>McConnell Engineering Building</div>
+								<div>3480 University Street, Ground Floor, Room #7</div>
+								<div>Montreal, Québec H3A 2K6</div></td>
 						</tr>
 					</table>
 				</div>
